@@ -1,0 +1,682 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\controllers\\subscribercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\controllers\\subscribercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\viewmodels\\account\\accountforgetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\viewmodels\\account\\accountforgetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\viewmodels\\account\\accountloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\viewmodels\\account\\accountloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\viewmodels\\account\\accountregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\viewmodels\\account\\accountregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\viewmodels\\account\\accountresetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\viewmodels\\account\\accountresetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\models\\user\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\models\\user\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\models\\user\\userindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\models\\user\\userindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\models\\user\\usercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\models\\user\\usercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\models\\account\\accountloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\models\\account\\accountloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\models\\account\\accountforgetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\models\\account\\accountforgetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\models\\shop\\subscribervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\models\\shop\\subscribervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\controllers\\vacancycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\controllers\\vacancycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\viewmodels\\shop\\subscribervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\viewmodels\\shop\\subscribervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\utilities\\emailhandler\\concrete\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\utilities\\emailhandler\\concrete\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\utilities\\emailhandler\\abstract\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\utilities\\emailhandler\\abstract\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\utilities\\emailhandler\\models\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\utilities\\emailhandler\\models\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\utilities\\emailhandler\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\utilities\\emailhandler\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|c:\\users\\darya\\desktop\\ayhan13\\asp-task4\\asp-task4\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E89CB8A6-F0CD-467F-869E-63307F62D510}|Asp-task4\\Asp-task4.csproj|solutionrelative:asp-task4\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SubscriberController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Controllers\\SubscriberController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:15:57.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\User\\UserVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Models\\User\\UserVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\User\\UserVM.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Models\\User\\UserVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:09:44.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserIndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:09:41.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountForgetPasswordVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\Account\\AccountForgetPasswordVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Models\\Account\\AccountForgetPasswordVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\Account\\AccountForgetPasswordVM.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Models\\Account\\AccountForgetPasswordVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:09:36.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\User\\UserCreateVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Models\\User\\UserCreateVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\User\\UserCreateVM.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Models\\User\\UserCreateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:09:32.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountLoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\Account\\AccountLoginVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Models\\Account\\AccountLoginVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\Account\\AccountLoginVM.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Models\\Account\\AccountLoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:09:29.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:08:08.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:07:45.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Asp-task4\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:05:13.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "Asp-task4\\Controllers\\SaleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:05:12.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VacancyController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\VacancyController.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Controllers\\VacancyController.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\VacancyController.cs",
+              "RelativeToolTip": "Asp-task4\\Controllers\\VacancyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:05:07.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubscriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\SubscriptionController.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Controllers\\SubscriptionController.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\SubscriptionController.cs",
+              "RelativeToolTip": "Asp-task4\\Controllers\\SubscriptionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:03:45.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SubscriberVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\Shop\\SubscriberVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Models\\Shop\\SubscriberVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Models\\Shop\\SubscriberVM.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Models\\Shop\\SubscriberVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:02:11.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:01:21.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:01:17.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T12:01:14.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Asp-task4\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:00:12.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubscriberVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Shop\\SubscriberVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\ViewModels\\Shop\\SubscriberVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Shop\\SubscriberVM.cs",
+              "RelativeToolTip": "Asp-task4\\ViewModels\\Shop\\SubscriberVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:58:08.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Asp-task4\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T11:50:10.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Asp-task4\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T11:48:51.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Sale\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Views\\Sale\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Sale\\Index.cshtml",
+              "RelativeToolTip": "Asp-task4\\Views\\Sale\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T11:48:46.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\appsettings.json",
+              "RelativeDocumentMoniker": "Asp-task4\\appsettings.json",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\appsettings.json",
+              "RelativeToolTip": "Asp-task4\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T11:08:51.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Asp-task4\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Asp-task4\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T11:08:30.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Models\\EmailConfiguration.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Utilities\\EmailHandler\\Models\\EmailConfiguration.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Models\\EmailConfiguration.cs",
+              "RelativeToolTip": "Asp-task4\\Utilities\\EmailHandler\\Models\\EmailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:08:13.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "RelativeToolTip": "Asp-task4\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:08:10.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Program.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Program.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Program.cs",
+              "RelativeToolTip": "Asp-task4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:07:56.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\DbInitializer.cs",
+              "RelativeToolTip": "Asp-task4\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:07:50.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "RelativeToolTip": "Asp-task4\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:39:13.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Abstract\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Utilities\\EmailHandler\\Abstract\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Utilities\\EmailHandler\\Abstract\\IEmailService.cs",
+              "RelativeToolTip": "Asp-task4\\Utilities\\EmailHandler\\Abstract\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:39:11.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountRegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountRegisterVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\ViewModels\\Account\\AccountRegisterVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountRegisterVM.cs",
+              "RelativeToolTip": "Asp-task4\\ViewModels\\Account\\AccountRegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:13:10.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountLoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountLoginVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\ViewModels\\Account\\AccountLoginVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountLoginVM.cs",
+              "RelativeToolTip": "Asp-task4\\ViewModels\\Account\\AccountLoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:12:31.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Asp-task4\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T17:12:29.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Asp-task4\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T17:11:30.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Asp-task4\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T11:28:15.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Asp-task4\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T11:28:02.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountForgetPasswordVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountForgetPasswordVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\ViewModels\\Account\\AccountForgetPasswordVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountForgetPasswordVM.cs",
+              "RelativeToolTip": "Asp-task4\\ViewModels\\Account\\AccountForgetPasswordVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T11:27:54.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Asp-task4\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T11:27:05.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountResetPasswordVM.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountResetPasswordVM.cs",
+              "RelativeDocumentMoniker": "Asp-task4\\ViewModels\\Account\\AccountResetPasswordVM.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\ViewModels\\Account\\AccountResetPasswordVM.cs",
+              "RelativeToolTip": "Asp-task4\\ViewModels\\Account\\AccountResetPasswordVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T11:26:47.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ForgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeDocumentMoniker": "Asp-task4\\Views\\Account\\ForgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\Asp-task4\\Asp-task4\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeToolTip": "Asp-task4\\Views\\Account\\ForgetPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T11:18:57.636Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

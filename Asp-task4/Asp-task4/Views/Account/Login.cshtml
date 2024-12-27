@@ -1,0 +1,52 @@
+﻿@using Asp_task4.ViewModels.Account
+@model AccountLoginVM
+
+@{
+	Layout = "_Layout";
+	string returnUrl = Context.Request.Query["returnUrl"];
+}
+
+<form method="post" asp-action="login" asp-controller="account" class="login100-form validate-form">
+	<span class="login100-form-title">
+		Login
+	</span>
+
+	<input value="@returnUrl" type="hidden" asp-for="ReturnUrl">
+
+	<div asp-validation-summary="All"></div>
+
+
+	<div class="wrap-input100 validate-input">
+		<input asp-for="Email" class="input100" placeholder="Email">
+		<span asp-validation-for="Email"></span>
+		<span class="focus-input100"></span>
+	</div>
+
+	<div class="wrap-input100 validate-input">
+		<input asp-for="Password" class="input100" placeholder="Password">
+		<span asp-validation-for="Password"></span>
+		<span class="focus-input100"></span>
+	</div>
+
+	<div class="container-login100-form-btn">
+		<button class="login100-form-btn">
+			Login
+		</button>
+	</div>
+
+	<div class="text-center p-t-12">
+		<span class="txt1">
+			Forgot
+		</span>
+		<a class="txt2" href="~/assets/#">
+			Username / Password?
+		</a>
+	</div>
+
+	<div class="text-center p-t-136">
+		<a asp-action="login" asp-controller="account" class="txt2">
+			Register
+			<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+		</a>
+	</div>
+</form> 

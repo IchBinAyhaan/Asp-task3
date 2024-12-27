@@ -1,0 +1,48 @@
+﻿﻿@using Asp_task4.Areas.Admin.Models.User
+@model UserUpdateVM
+<form class="w-75 ml-4" asp-controller="User" asp-action="Update" method="post">
+	<div asp-validation-summary="All"></div>
+	<div class="form-group">
+		<label asp-for="Email"></label>
+		<input asp-for="Email" class="form-control" placeholder="Enter email" />
+		<span class="text-danger" asp-validation-for="Email"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="Country"></label>
+		<input asp-for="Country" class="form-control" placeholder="enter Country" />
+		<span class="text-danger" asp-validation-for="Country"></span>
+	</div>
+
+
+	<div class="form-group">
+		<label asp-for="City"></label>
+		<input asp-for="City" class="form-control" placeholder="Enter City" />
+		<span class="text-danger" asp-validation-for="City"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="PhoneNumber"></label>
+		<input asp-for="PhoneNumber" class="form-control" placeholder="Enter Phone Number" />
+		<span class="text-danger" asp-validation-for="PhoneNumber"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="NewPassword"></label>
+		<input asp-for="NewPassword" class="form-control" placeholder="Enter NewPassword" />
+		<span class="text-danger" asp-validation-for="NewPassword"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="ConfirmNewPassword"></label>
+		<input asp-for="ConfirmNewPassword" class="form-control" placeholder="EnterNew Confirm Password" />
+		<span class="text-danger" asp-validation-for="ConfirmNewPassword"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="RolesIds"></label>
+		<select asp-for="RolesIds" asp-items="@Model.Roles" class="form-control" multiple> </select>
+		<span class="text-danger" asp-validation-for="RolesIds"></span>
+	</div>
+
+	<button type="submit" class="btn btn-primary">Update</button>
+	<a class="btn btn-outline-info" asp-controller="User" asp-action="Index">Cancel</a>
+</form>

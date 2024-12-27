@@ -1,0 +1,29 @@
+﻿@using Asp_task4.Areas.Admin.Models.Shop
+@model SubscriberVM
+<h2>Abunəçilər</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Abunəlik Durumu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var subscriber in Model)
+        {
+            <tr>
+                <td>@subscriber.Email</td>
+                <td>@(subscriber.IsSubscribed ? "Abunə olub" : "Abunə deyil")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form method="post" action="/Subscription/SendDiscountEmails">
+    <div class="form-group">
+        <label for="discountPercentage">Endirim Faizi:</label>
+        <input type="number" class="form-control" id="discountPercentage" name="discountPercentage" placeholder="Endirim faizi daxil edin" required />
+    </div>
+    <button type="submit" class="btn btn-success">Endirim E-poçtunu Göndər</button>
+</form>

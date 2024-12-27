@@ -1,0 +1,11 @@
+﻿@{
+    Layout = null;
+}
+
+Home
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p>Welcome,@User.Identity.Name</p>
+    <a asp-action="logut" asp-controller="account">Log out</a>
+} 

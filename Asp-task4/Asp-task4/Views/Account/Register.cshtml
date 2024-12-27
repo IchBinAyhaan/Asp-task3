@@ -1,0 +1,68 @@
+﻿@using Asp_task4.ViewModels.Account
+@model AccountRegisterVM 
+
+@{
+	Layout = "_Layout";
+}
+
+				<form method="post" asp-action="register" asp-controller="account" class="login100-form validate-form">
+					<span class="login100-form-title">
+						 Register
+					</span>
+
+                   	<div class="text-danger" asp-validation-summary="All"></div>
+
+
+					<div class="wrap-input100 validate-input">
+						<input asp-for="Email" class="input100" placeholder="Email">
+						<span asp-validation-for="Email"></span>
+						<span class="focus-input100"></span>				
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<input asp-for="Password" class="input100" placeholder="Password">
+						<span asp-validation-for="Password"></span>
+						<span class="focus-input100"></span>				
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<input asp-for="ConfirmPassword" class="input100" placeholder="ConfirmPassword">
+						<span asp-validation-for="ConfirmPassword"></span>
+						<span class="focus-input100"></span>		
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<input asp-for="Country" class="input100" placeholder="Country">
+						<span asp-validation-for="Country"></span>
+						<span class="focus-input100"></span>					
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<input asp-for="City" class="input100" placeholder="City">
+						<span asp-validation-for="City"></span>
+						<span class="focus-input100"></span>			
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Register
+						</button>
+					</div>
+
+					<div class="text-center p-t-12">
+						<span class="txt1">
+							Forgot
+						</span>
+						<a class="txt2" href="~/assets/#">
+							Username / Password?
+						</a>
+					</div>
+
+					<div class="text-center p-t-136">
+						<a asp-action="login" asp-controller="account" class="txt2" >
+							  Alreay have account? Login
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+						</a>
+					</div>
+				</form>
+			
