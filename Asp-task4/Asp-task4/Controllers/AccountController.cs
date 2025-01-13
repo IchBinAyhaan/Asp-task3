@@ -26,140 +26,138 @@ namespace Asp_task4.Controllers
         }
 
         [HttpGet]
-        public IActionResult Register()
-        {
-            return View();
-        }
+		public IActionResult Register()
+		{
+			return View();
+		}
+		[HttpPost]
+		public IActionResult Register(AccountRegisterVM model)
+		{
+			if (!ModelState.IsValid) return View(model);
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(AccountRegisterVM model)
-        {
-            if (!ModelState.IsValid) return View(model);
+			var user = new User
+			{
+				Email = model.Email,
+				UserName = model.Email
+			};
 
-            var user = new User
-            {
-                Email = model.Email,
-                UserName = model.Email,
-                City = model.City,
-                Country = model.Country,
-                PhoneNumber = model.PhoneNumber
-            };
+			var result = _userManager.CreateAsync(user, model.Password).Result;
+			if (!result.Succeeded)
+			{
+				foreach (var error in result.Errors)
+					ModelState.AddModelError(string.Empty, error.Description);
 
-            var result = await _userManager.CreateAsync(user, model.Password);
-            if (!result.Succeeded)
-            {
-                foreach (var error in result.Errors)
-                    ModelState.AddModelError(string.Empty, error.Description);
+				return View(model);
+			}
 
-                return View(model);
-            }
+			var token = _userManager.GenerateEmailConfirmationTokenAsync(user).Result;
+			var url = Url.Action(nameof(ConfirmationEmail), "Account", new { token, user.Email }, Request.Scheme);
+			_emailService.SendMessage(new Message(new List<string> { user.Email }, "Confirmation Message", url));
 
-            return RedirectToAction("Login", "Account");
-        }
+			return RedirectToAction("Register", "Account");
+		}
 
-        [HttpGet]
-        public IActionResult Login(string returnUrl)
-        {
-            ViewData["ReturnUrl"] = returnUrl;
-            return View();
-        }
+		public IActionResult ConfirmationEmail(string email, string token)
+		{
+			var user = _userManager.FindByEmailAsync(email).Result;
+			if (user is null) return NotFound();
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(AccountLoginVM model, string returnUrl)
-        {
-            if (!ModelState.IsValid) return View(model);
+			var result = _userManager.ConfirmEmailAsync(user, token).Result;
+			if (!result.Succeeded) return NotFound();
 
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            if (user == null)
-            {
-                ModelState.AddModelError(string.Empty, "Email və ya şifrə yanlışdır");
-                return View(model);
-            }
+			return RedirectToAction(nameof(Login));
+		}
 
-            var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
-            if (!result.Succeeded)
-            {
-                ModelState.AddModelError(string.Empty, "Email və ya şifrə yanlışdır");
-                return View(model);
-            }
+		[HttpGet]
+		public IActionResult Login()
+		{
+			return View();
+		}
+		[HttpPost]
+		public IActionResult Login(AccountLoginVM model)
+		{
+			if (!ModelState.IsValid) return View(model);
 
-            if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
-                return Redirect(returnUrl);
+			var user = _userManager.FindByEmailAsync(model.Email).Result;
+			if (user is null)
+			{
+				ModelState.AddModelError(string.Empty, "Email və ya şifrə yanlışdır");
+				return View(model);
+			}
 
-            return RedirectToAction("Index", "Home");
-        }
+			var result = _signInManager.PasswordSignInAsync(user, model.Password, false, false).Result;
+			if (!result.Succeeded)
+			{
+				ModelState.AddModelError(string.Empty, "Email və ya şifrə yanlışdır");
+				return View(model);
+			}
 
-        [HttpGet]
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction(nameof(Login));
-        }
 
-        [HttpGet]
-        public IActionResult ForgetPassword()
-        {
-            return View();
-        }
+			return RedirectToAction("Index", "Home");
+		}
+		[HttpGet]
+		public async Task<IActionResult> Logout()
+		{
+			await _signInManager.SignOutAsync();
+			return RedirectToAction(nameof(Login));
+		}
+		[HttpGet]
+		public IActionResult ForgetPassword()
+		{
+			return View();
+		}
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ForgetPassword(AccountForgetPasswordVM model)
-        {
-            if (!ModelState.IsValid) return View(model);
+		[HttpPost]
+		public IActionResult ForgetPassword(AccountForgetPasswordVM model)
+		{
+			if (!ModelState.IsValid) return View(model);
 
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            if (user == null)
-            {
-                ModelState.AddModelError("Email", "İstifadəçi tapılmadı");
-                return View(model);
-            }
+			var user = _userManager.FindByEmailAsync(model.Email).Result;
+			if (user is null)
+			{
+				ModelState.AddModelError("Email", "User not found");
+				return View(model);
+			}
 
-            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            var url = Url.Action(nameof(ResetPassword), "Account", new { token, email = user.Email }, Request.Scheme);
+			var token = _userManager.GeneratePasswordResetTokenAsync(user).Result;
+			var url = Url.Action(nameof(ResetPassword), "Account", new { token, user.Email }, Request.Scheme);
+			_emailService.SendMessage(new Message(new List<string> { user.Email }, "Forget Password?", url));
 
-            await _emailService.SendMessage(new Message(new List<string> { user.Email }, "Şifrəni Unutdunuz?", $"Zəhmət olmasa, şifrənizi sıfırlamaq üçün aşağıdakı linkə klikləyin: {url}"));
+			ViewBag.NotificationText = "Mail sent successfully";
+			return View("Notification");
+		}
 
-            ViewBag.NotificationText = "E-poçt göndərildi. Şifrənizi yeniləmək üçün e-poçtunuza baxın.";
-            return RedirectToAction(nameof(Login));
-        }
 
-        [HttpGet]
-        public IActionResult ResetPassword(string token, string email)
-        {
-            if (token == null || email == null)
-            {
-                return RedirectToAction(nameof(Login));
-            }
 
-            var model = new AccountResetPasswordVM { Token = token, Email = email };
-            return View(model);
-        }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ResetPassword(AccountResetPasswordVM model)
-        {
-            if (!ModelState.IsValid) return View(model);
+		[HttpGet]
+		public IActionResult ResetPassword()
+		{
+			return View();
+		}
 
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            if (user == null)
-            {
-                ModelState.AddModelError("Password", "Şifrəni dəyişmək mümkün olmadı");
-                return View(model);
-            }
+		[HttpPost]
+		public IActionResult ResetPassword(AccountResetPasswordVM model)
+		{
+			if (!ModelState.IsValid) return View(model);
 
-            var result = await _userManager.ResetPasswordAsync(user, model.Token, model.Password);
-            if (!result.Succeeded)
-            {
-                foreach (var error in result.Errors)
-                    ModelState.AddModelError(string.Empty, error.Description);
-                return View(model);
-            }
+			var user = _userManager.FindByNameAsync(model.Email).Result;
+			if (user is null)
+			{
+				ModelState.AddModelError("Password", "It was not possible to update the password");
+				return View(model);
+			}
 
-            return RedirectToAction(nameof(Login));
-        }
+			var result = _userManager.ResetPasswordAsync(user, model.Token, model.Password).Result;
+			if (!result.Succeeded)
+			{
+				foreach (var error in result.Errors)
+					ModelState.AddModelError(string.Empty, error.Description);
+
+				return View(model);
+			}
+
+			return RedirectToAction(nameof(Login));
+		}
     }
 }
